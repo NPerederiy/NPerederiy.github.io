@@ -149,7 +149,14 @@
 			<section>
 				<h3>Nikita Perederii</h3>
 				<div class="primary-text fragment" data-autoslide=500>fullstack developer</div>
-				<div class="secondary-text fragment">with 2+ years of commercial experience</div>
+				<div class="secondary-text fragment" data-autoslide=500>with 2+ years of commercial experience</div>
+				<br />
+				<br />
+				<div class="description fragment">
+					Student of the MIS-11 group <br />
+					Applied Information Systems Department <br />
+					Taras Shevchenko National University of Kyiv
+				</div>
 				<aside class="notes">
 					Студент групи УІС-11 <br />
 					Кафедри прикладних інформаційних систем <br />
@@ -647,7 +654,7 @@
 					<div class="fragment card-with-qr-code" data-autoslide=500>
 						<div class="qr-code send-email-qr"></div>
 						<div class="align-left">
-							<div class="primary-text">&#8250; nick.perederiy@gmail.com</div>
+							<div class="primary-text">&#8250; <a href="mailto:nick.perederiy@gmail.com">nick.perederiy@gmail.com</a></div>
 							<div class="description">
 								Email
 								<br />
@@ -658,7 +665,7 @@
 					<div class="fragment card-with-qr-code">
 						<div class="qr-code linkedin-profile-qr"></div>
 						<div class="align-left">
-							<div class="primary-text">&#8250; nikita-perederii</div>
+							<div class="primary-text">&#8250; <a href="https://www.linkedin.com/in/nikita-perederii/">nikita-perederii</a></div>
 							<div class="description">
 								LinkedIn
 								<br />
@@ -674,7 +681,7 @@
 					<div class="fragment card-with-qr-code" data-autoslide=500>
 						<div class="qr-code reveal-source-qr"></div>
 						<div class="align-left">
-							<div class="primary-text">&#8250; Reveal.js documentation</div>
+							<div class="primary-text">&#8250; <a href="https://github.com/hakimel/reveal.js">Reveal.js documentation</a></div>
 							<div class="description">
 								https://github.com/hakimel/reveal.js
 								<br />
@@ -685,7 +692,7 @@
 					<div class="fragment card-with-qr-code">
 						<div class="qr-code linkedin-source-qr"></div>
 						<div class="align-left">
-							<div class="primary-text">&#8250; LinkedIn</div>
+							<div class="primary-text">&#8250; <a href="https://www.linkedin.com">LinkedIn</a></div>
 							<div class="description">
 								www.linkedin.com
 								<br />
@@ -703,10 +710,10 @@
 	<script>
 		Reveal.initialize({
 			hash: true,
+			loop: true,
+			showNotes: true,
+			transition: 'slide',
 			dependencies: [
-				{ src: 'plugin/markdown/marked.js' },
-				{ src: 'plugin/markdown/markdown.js' },
-				{ src: 'plugin/highlight/highlight.js' },
 				{ src: 'plugin/notes/notes.js', async: true }
 			]
 		});
