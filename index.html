@@ -20,7 +20,24 @@
 		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
 		document.getElementsByTagName('head')[0].appendChild(link);
 	</script>
-	
+
+	<style>
+		.reveal.packt .slides>section.past {
+			-webkit-transform: scale(.01);
+			-moz-transform: scale(.01);
+			-ms-transform: scale(.01);
+			-o-transform: scale(.01);
+			transform: scale(.01);
+		}
+
+		.reveal.packt .slides>section.future {
+			-webkit-transform: scale(5);
+			-moz-transform: scale(5);
+			-ms-transform: scale(5);
+			-o-transform: scale(5);
+			transform: scale(5);
+		}
+	</style>
 </head>
 
 <body>
@@ -619,7 +636,7 @@
 		Reveal.initialize({
 			hash: true,
 			loop: true,
-			transition: 'linear',
+			transition: 'packt',
 			dependencies: [
 				{ src: 'plugin/notes/notes.js', async: true }
 			]
